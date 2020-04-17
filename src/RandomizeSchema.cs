@@ -15,7 +15,7 @@ namespace randomize
     {
         public RandomizeQuery()
         {
-            Field<StringGraphType>("random", resolve: context => "TODO");
+            Field<StringGraphType>("wizardName", resolve: context => new WizardNameGenerator().Generate());
         }
     }
 }
