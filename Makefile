@@ -3,3 +3,7 @@ all:
 	&& dotnet clean \
 	&& dotnet build \
 	&& dotnet run \
+
+clean: 
+	cd src \
+	&& dotnet clean
