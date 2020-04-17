@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace src.Controllers
+namespace randomize.Controllers
 {
     [ApiController]
     [Route("[controller]")]

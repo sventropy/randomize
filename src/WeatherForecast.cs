@@ -1,6 +1,6 @@
 using System;
 
-namespace src
+namespace randomize
 {
     public class WeatherForecast
     {
